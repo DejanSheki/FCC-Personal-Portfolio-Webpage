@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Webpage</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      @media (max-width: 768px) {
+        nav {
+          padding: 0.5rem 1rem;
+        }
+        nav ul li a {
+          font-size: 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="logo">
+        <a href="https://dejanlukic.com"
+          ><img src="./images/my-logo.png" alt=""
+        /></a>
+      </div>
+      <ul>
+        <li><a href="#welcome-section">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section id="welcome-section">
+      <div>
+        <h1>Hi, I am Dejan</h1>
+        <p>Front-End Developer</p>
+      </div>
+      <a class="arrow" href="#projects"
+        ><i class="fas fa-angle-double-down"></i
+      ></a>
+    </section>
+    <section id="projects">
+      <h2>Some of my projects</h2>
+      <div class="projects-wrap">
+        <a
+          href="https://dejansheki.github.io/FCC-Product-Landing-Page/"
+          class="project-tile"
+          target="_blank"
+        >
+          <div class="img">
+            <img src="./images/burger-two.jpg" alt="Burgers" />
+          </div>
+          <h3>FCC Product Landing Page</h3>
+        </a>
+        <a
+          href="https://dejansheki.github.io/Website-Project/"
+          class="project-tile"
+          target="_blank"
+        >
+          <div class="img">
+            <img src="./images/WebsiteProject.png" alt="Website" />
+          </div>
+          <h3>Websitw Project</h3>
+        </a>
+        <a href="https://dejanlukic.com" class="project-tile" target="_blank">
+          <div class="img">
+            <img src="./images/facebook.jpg" alt="Portfolio" />
+          </div>
+          <h3>My Portfolio</h3>
+        </a>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="contact-header">
+        <h2>Let's work together...</h2>
+      </div>
+      <div class="contact-links">
+        <a
+          class="contact-icon"
+          id="profile-link"
+          href="https://github.com/DejanSheki"
+          target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a
+          class="contact-icon"
+          href="https://www.linkedin.com/in/dejanwebdev/"
+          target="_blank"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+        <a
+          class="contact-icon"
+          href="mailto:dejan.sheki.lukic@gmail.com"
+          target="_blank"
+          ><i class="fas fa-at"></i
+        ></a>
+        <a
+          class="contact-icon"
+          href="https://www.instagram.com/dejan.web.dev/"
+          target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+      </div>
+    </section>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
